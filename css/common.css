@@ -1,0 +1,16 @@
+#wrap {width: 100%;}
+#wrap .inner {padding:0 3.0000vw;margin: auto;box-sizing: border-box;position: relative;}
+#header {width: 100%;position: relative;}
+#header .inner {display: flex;justify-content: space-between;padding: 6.0000vw 3.0000vw 2.0000vw 3.0000vw;align-items: center;}
+#header h1 {width: 30.0000vw;}
+#header h1 a {width: 30.0000vw;}
+#header h1 a img {width: 30.0000vw;}
+#header p a {font-size: 3.2000vw;}
+#header .search-icon i {font-size: 4.8vw;position: absolute;right: 15vw;bottom: 3vw;}
+
+#footer {width: 100%;position: fixed;background: #fff;border: 0.2000vw solid #e5e5e5;left: 0;bottom: 0;height: 14.0000vw;z-index: 100;}
+#footer .footerbar {display: flex;justify-content: space-between;padding: 2.0000vw 0;box-sizing: border-box;}
+#footer .footerbar li {text-align: center;width: 16.0000vw;background: #fff;}
+#footer .footerbar li i {font-size: 4.8000vw;color: #6e6e6e;}
+#footer .footerbar li p {font-size: 2.8000vw;color: #6e6e6e;}
+/* end footer */

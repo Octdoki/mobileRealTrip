@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>마이 리얼 트립: 나만의 여행을 찾아서</title>
+        <meta name="description" content="html5의 구조를 설명" />
+        <meta name="keywords" content="html5의 구조" />
+        <meta name="author" content="홍길동" />
+
+        <meta property="og:url" content="사이트url" />
+        <meta property="og:title" content="제목" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="이미지경로" />
+        <meta property="og:description" content="간단설명" />
+        <link rel="shortcut icon" href="images/favicon.png" />
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css" />
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/common.css" />
+        <link rel="stylesheet" href="css/sub.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <div id="wrap">
+        <header id="header"></header>
+        <!-- //end header -->
+        <section class="section">
+            <div class="inner">
+                <h2>국내 호텔</h2>
+                <div class="banner">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="images/b1.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/b2.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/b3.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/b4.jpg" alt=""></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <div class="btnall">
+                    <button class="goodbtn">추천순</button>
+                    <button class="lowbtn">낮은 가격순</button>
+                    <button class="hibtn">높은 가격순</button>
+                </div>
+                <div class="main">
+                    <!-- list.js -->
+                </div>
+            </div>
+        </section>
+        <!-- //end main -->
+        <footer id="footer">
+            
+        </footer>
+        <!-- //end footer -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/plugin.js"></script>
+    <script src="js/list.js"></script>
+    <script src="js/common.js"></script>
+
+</body>
+</html>
